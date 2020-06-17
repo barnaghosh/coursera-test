@@ -1,9 +1,6 @@
 * {
     box-sizing: border-box;
 }
-body{
-    background: lightgray;
-}
 
 h1 {
     text-align: center;
@@ -11,7 +8,7 @@ h1 {
 }
 
 .box {   
-    background-color: gray;
+    background-color: lightgray;
     border: 1px solid black;
     margin: 25px;
 }
@@ -37,7 +34,7 @@ h1 {
 
 #color2 {
     background-color:lightpink;
-    color: white;
+    color: black;
 }
 
 #color3 {
