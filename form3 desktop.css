@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: darkblue;
+}
+.nav{
+    background-color: darkcyan;
+    padding: 20px ;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border: 2px solid black ;
+    border-radius: 10px;
+    background-color: chartreuse;
+}
+
+
+.con{
+    display: inline;
+    
+    position: relative;
+}
+.cont{
+    display: block;
+    
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    
+    
+    display: none;
+}
+.cont a{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 90px;
+    padding-left:10px ;
+    text-align: center;
+    background-color: violet;
+    margin-bottom: 5px;
+}
+.con:hover .cont{
+    display: block;
+}
+.nav a:hover{
+    background-color: gray;
+    border-radius: 10px;
+    color: black;
+}
+.form{
+    box-sizing: border-box;
+    background-color: red;
+    width: 70%;
+    margin: 10px;
+    margin: 10px auto;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+fieldset{
+    padding: 15px;
+}
+.in1{
+    border-radius: 20px;
+    margin-left: 5px;
+    height: 30px;
+    padding: 5px;
+    
+}
+.gen{
+    margin-right: 10px;
+
+}
+.dep{
+    margin-right: 5px;
+}
+.rel{
+    margin-right: 5px;
+}
+#drop{
+    padding-top: 3px;
+    padding-left: 30px;
+    padding-bottom: 8px;
+    padding-right: 30px;
+    border-radius: 20px;
+}
+#com{
+    border-radius: 25px;
+    padding: 10px;
+}
+.button{
+    
+    padding: 5px 30px 5px 25px;
+    border-radius: 10px;
+    justify-content: center;
+    margin-right: 20px;
+}
+.button:hover{
+    background-color: blue;
+    color: cornsilk;
+}
