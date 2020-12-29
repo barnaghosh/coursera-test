@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" media="screen and (max-width: 600px)" href="form2 mobile.css">
+    <link rel="stylesheet" media="screen and (min-width:601px)" href="form desktop.css">
+</head>
+<body>
+    <div class="nav">
+        <a href="#">Nonumy sed</a>
+        <a href="#">Dolor amet</a>
+        <div class="con">
+            <a href="#">Dolore sed</a>
+            <div class="cont">
+                <a href="#">Et dolor</a>
+                <a href="#">Amet erat</a>
+                <a href="#">Et ut</a>
+            </div>
+        </div>
+        <a href="#">Dolore lorem</a>
+    </div>
+    <div class="form">
+        <form action="">
+            <h1>Registration Form</h1>
+            <fieldset class="col-s-12">
+                <legend>
+                    Required information
+                </legend>
+                <b>Name:</b><input type="text" class="in1" name="name" placeholder="Enter Your Name" size="40"  required><br><br>
+                <b>Gmail:</b><input type="email"class="in1" name="email" placeholder="Enter Your Gmail" size="20" required><br><br>
+                <b>University:</b><input type="text" class="in1" name="university" placeholder="Enter Your University Name" size="40"  required><br><br>
+            <b class="gen">Gender:</b><input type="radio" name="gender" value="male" >Male
+            <input type="radio" name="gender" value="female" checked>Female
+            <input type="radio" name="gender" value="other">others <br><br>
+            <b class="rel">Religious:</b><input type="checkbox" name="Religious" value="islam" checked >Islam
+            <input type="checkbox" name="Religious" value="hindu" >Hindu
+            <input type="checkbox" name="Religious" value="other">others <br><br>
+            <b class="dep">Department:</b>
+            <select name="" id="drop">
+                <option value="cse">Cse</option>
+                <option value="eee">EEE</option>
+                <option value="ete">ETE</option>
+            </select>
+            </fieldset>
+            <br>
+            <b>Why are you interested in this job?</b><br><br>
+            <textarea name="" id="com" cols="30" rows="10" placeholder="Write Your Comment"></textarea>
+            <br><br>
+            <input type="submit" value="submit" class="button">
+            <input type="reset" value="reset" class="button">
+        </form>
+    </div>
+</body>
+</html>
