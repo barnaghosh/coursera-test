@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+.wel{
+    text-align:center ;
+    color: navy;
+    word-spacing: 4px;
+    font-size: 40px;
+    padding-bottom: 30px;
+}
+span{
+    color: orange;
+}
+.head{
+   
+    display: flex;
+}
+.heading{
+    color: blueviolet;
+    padding-bottom: 20px;
+    font-weight: 700;
+}
+.para1{
+    padding: 25px;
+    text-align: justify;
+}
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.img{
+ display: flex;
+ align-items: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+.head::after{
+    content: "";
+    clear: both;
+}
+.body{
+    display: flex;
+}
+.body::after{
+    content: "";
+    clear: both;
+}
+.menu{
+    padding: 25px;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+}
+.card1{
+    border-left:6px solid transparent;
+    border-image: linear-gradient(to bottom,rgb(255, 136, 0),orangered);
+    border-image-slice: 1;
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 70px;
+padding-right: 20px;
+box-shadow: 10px 15px 5px gray;
+margin-bottom: 60px;
+
+}
+.card1 >p{
+    text-align: justify;
+}
+.card2{
+    border-left:6px solid transparent;
+border-image: linear-gradient(to bottom,blue,skyblue);
+border-image-slice: 1;
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 70px;
+padding-right: 20px;
+box-shadow: 10px 15px 5px gray;
+margin-bottom: 60px;
+
+}
+.card2 >p{
+    text-align: justify;
+}
+.name{
+    color: red;
+    font-weight: 700;
+}
+.footer{
+    text-align: center;
+    padding-top: 40px;
+   }
+   a{
+    color: white;
+    text-decoration: none;
+    
+    background-image: linear-gradient(to right,rgb(255, 136, 0),orangered);
+    padding: 2px;
+    border-radius: 3px;
+    
+}

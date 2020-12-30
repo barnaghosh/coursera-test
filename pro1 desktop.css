@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.wel{
+    text-align:center ;
+    color: navy;
+    word-spacing: 7px;
+    font-size: 60px;
+}
+span{
+    color: orange;
+}
+.web{
+
+}
+body{
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+.head{
+display: flex;
+margin-bottom: 40px;
+}
+.heading{
+color: blueviolet;
+padding: 10px;
+font-weight: 700;
+}
+.para1{
+ padding: 60px;
+ text-align: justify;
+}
+p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+    
+    background-image: linear-gradient(to right,rgb(255, 136, 0),orangered);
+    padding: 2px;
+    border-radius: 3px;
+    
+}
+
+.img{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 60px;
+}
+img{
+height: 350px;
+width: 350px;
+border-radius: 50%;
+}
+.head::after{
+    content: "";
+    clear: both;
+}
+.body{
+display: flex;
+flex-direction: row-reverse;
+justify-content: end;
+}
+.menu{
+padding: 60px;
+}
+.card{
+    display: flex;
+    box-sizing: border-box;
+    padding: 40px;
+}
+.card1{
+border-left:6px solid transparent;
+border-image: linear-gradient(to bottom,rgb(255, 136, 0),orangered);
+border-image-slice: 1;
+padding-top: 20px;
+padding-left: 20px;
+padding-bottom: 70px;
+padding-right: 20px;
+box-shadow: 10px 15px 5px black;
+margin-right: 90px;
+
+}
+.card1 >p{
+    text-align: justify;
+}
+.card2{
+    border-left:6px solid transparent;
+border-image: linear-gradient(to bottom,blue,skyblue);
+border-image-slice: 1;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 70px;
+    padding-right: 20px;
+    box-shadow: 10px 15px 5px black;
+    margin-right: 60px;
+    
+    }
+    .card2 >p{
+        text-align: justify;
+    }
+    .name{
+        color: red;
+        font-weight: 700;
+    }
+.footer{
+ text-align: center;
+ padding-top: 70px;
+}
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
