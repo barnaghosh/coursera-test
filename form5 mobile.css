@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: royalblue;
+}
+.web{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.nav{
+    background-color:aqua;
+    padding: 10px;
+}
+.nav a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    color: beige;
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    margin: 10px;
+}
+.nav a:hover{
+    background-color: grey;
+}
+.cont{
+    display: none;
+}
+.cont a{
+    background-color: blue;
+}
+.con:hover .cont{
+display: block;
+
+}
+.form{
+    box-sizing: border-box;
+    background-color: red;
+    width: 98%;
+    margin: 10px;
+    margin: 10px auto;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+fieldset{
+    padding-top: 15px;
+    padding-left:10px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+option{
+    background-color: aquamarine;
+    
+}
+.in1{
+    border-radius: 10px;
+    margin-left: 5px;
+    
+    
+
+    
+}
+.gen{
+    margin-right: 10px;
+}
+.dep{
+    margin-right: 5px;
+}
+.rel{
+    margin-right: 5px;
+}
+#drop{
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+#com{
+    border-radius: 5px;
+    
+}
+.button{
+    
+    padding: 5px 20px 5px 15px;
+    justify-content: center;
+    margin-right: 20px;
+}
+.button:hover{
+    background-color: blue;
+    color: cornsilk;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: royalblue;
+}
+.nav{
+    background-color:aqua;
+    padding: 10px;
+}
+.nav a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+    color: beige;
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 20px;
+    margin: 10px;
+}
+.nav a:hover{
+    background-color: grey;
+}
+.cont{
+    display: none;
+}
+.cont a{
+    background-color: blue;
+}
+.con:hover .cont{
+display: block;
+
+}
+.form .col-s-12{
+    box-sizing: border-box;
+    background-color: red;
+    width: 98%;
+    margin: 10px;
+    margin: 10px auto;
+    padding: 20px;
+}
+h1{
+    text-align: center;
+    padding-bottom: 10px;
+}
+fieldset{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.in1{
+    border-radius: 10px;
+    margin-left: 5px;
+    height: 25px;
+    padding: 2px;
+
+    
+}
+.gen{
+    margin-right: 10px;
+}
+.dep{
+    margin-right: 5px;
+}
+.rel{
+    margin-right: 5px;
+}
+#drop{
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+}
+#com{
+    border-radius: 5px;
+    
+}
+.button{
+    
+    padding: 5px 20px 5px 15px;
+    justify-content: center;
+    margin-right: 20px;
+}
+.button:hover{
+    background-color: blue;
+    color: cornsilk;
+}
+.col-s-1 {width: 8.33%;}
+.col-s-2 {width: 16.66%;}
+.col-s-3 {width: 25%;}
+.col-s-4 {width: 33.33%;}
+.col-s-5 {width: 41.66%;}
+.col-s-6 {width: 50%;}
+.col-s-7 {width: 58.33%;}
+.col-s-8 {width: 66.66%;}
+.col-s-9 {width: 75%;}
+.col-s-10 {width: 83.33%;}
+.col-s-11 {width: 91.66%;}
+.col-s-12 {width: 100%;}
