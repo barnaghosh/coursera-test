@@ -99,7 +99,7 @@ main{
     display: flex;
     flex-direction: column;
 }
-.card img{
+.card1 img{
     width: 158px;
     
 }
